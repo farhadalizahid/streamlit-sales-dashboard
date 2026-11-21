@@ -1,0 +1,23 @@
+# Python
+venv/
+.venv/
+_pycache_/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets (never push these)
+.env
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large or generated files
+*.log
+data/raw/
+models/
+*.zip
